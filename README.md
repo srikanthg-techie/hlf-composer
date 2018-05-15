@@ -1,10 +1,20 @@
 # Hyperledger Fabric and Composer - The Collected Documentation from Different Sources
 
----
-**Note:** This document covers Hyperledger Fabric 1.1 and Hyperledger Composer 0.9.x
----
+Note: This document covers Hyperledger Fabric 1.1 and Hyperledger Composer 0.9.x
 
-## What is Hyperledger Fabric?
+
+## Hyperledger Fabric : 
+
+Detailed information on Hyperledger Fabric.
+
+
+### What is Hyperledger Fabric?
+
+Hyperledger Fabric is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility and scalability.
+
+### What is a Blockchain?
+
+**A Distributed Ledger**
 
 
 
