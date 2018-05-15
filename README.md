@@ -1,6 +1,8 @@
 # Hyperledger Fabric and Composer - The Collected Documentation from Different Sources
 
-Note: This document covers Hyperledger Fabric 1.1 and Hyperledger Composer 0.9.x
+---
+**Note:** This document covers Hyperledger Fabric 1.1 and Hyperledger Composer 0.9.x
+---
 
 ## What is Hyperledger Fabric?
 
