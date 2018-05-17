@@ -1,3 +1,6 @@
+## Transaction lifecycle in v1.0 of Hyperledger Fabric
+
+![blockchain_basic_network](https://www.ibm.com/developerworks/cloud/library/cl-top-technical-advantages-of-hyperledger-fabric-for-blockchain-networks/fig1.png)
 
 
 
