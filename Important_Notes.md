@@ -1,9 +1,22 @@
+# Important Points for Hyperledger Fabric and Hyperledger Composer
+
+  - Hyperledger Fabric's modular architecture maximizes the confidentiality, resilience, and flexibility of blockchain solutions.
+
+
 ## Transaction lifecycle in v1.0 of Hyperledger Fabric
 
-![blockchain_basic_network](https://www.ibm.com/developerworks/cloud/library/cl-top-technical-advantages-of-hyperledger-fabric-for-blockchain-networks/fig1.png)
+1) The transaction proposal is submitted by an application to an endorsing peer. 
+2) The Endorsement policies outline how many and/or what combination of endorsers are required to sign a proposal. The endorser executes the chaincode to simulate the proposal in the network peer, creating a read/write set. 
+3) Then the endorsing peers send back the signed proposal responses (endorsements) to the application. 
+4) The application submits the transactions and signatures to the ordering service, which 
+5) creates a batch, or block, of transactions and delivers them to committing peers. 
+6) When a committing peer receives a batch of transactions, for each transaction it 
+7) validates that the endorsement policy was met and checks in the read/write sets to detect conflicting transactions. If both checks pass, the block is committed to the ledger, and the state updates for each transaction are reflected in the state database.
+
+![blockchain_basic_network](https://github.com/srikanthg-techie/hlf-composer/blob/master/images/Transaction%20Lifecycle.png)
 
 
-
+## Other Info
 Orderer node - Consensus
 Channel - Privacy and Confidentiality
 Membership Service Provider - Identity
