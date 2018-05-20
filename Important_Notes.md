@@ -3,6 +3,7 @@
   - Hyperledger Fabric's modular architecture maximizes the confidentiality, resilience, and flexibility of blockchain solutions.
 
 
+
 ## Transaction lifecycle in v1.0 of Hyperledger Fabric
 
 1) The transaction proposal is submitted by an application to an endorsing peer. 
